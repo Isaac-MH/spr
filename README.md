@@ -56,8 +56,7 @@ spr.stop(obj: Instance, property: string?)
 
 Stops animations for a particular property.
 If a property is not specified, all properties belonging to the instance will stop animating.
-
-Additionally, this also cancels any 'completed' callbacks associated
+Any completed callbacks associated with the instance will be canceled.
 
 ## Spring fundamentals
 
